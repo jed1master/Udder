@@ -20,5 +20,9 @@ class ViewController: UIViewController {
     override func viewWillLayoutSubviews() {
         //
     }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        //
+    }
 }
 
